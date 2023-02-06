@@ -1,0 +1,46 @@
+.navbar {
+  height: 80px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.navbar .wrap {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .wrap .left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbar .wrap .center {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.navbar .wrap .right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbar .wrap .right .icons {
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,45 @@
+.footer .top {
+  margin: 100px 200px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer .top .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.footer .top .item h3 {
+  color: #777;
+}
+.footer .top .item span {
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.bottom {
+  margin: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+
+.bottom .copyright {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom .logo {
+  font-size: 18px;
+  color: #2879FE;
+}
+
+.payment img {
+  height: 4rem;
+}
