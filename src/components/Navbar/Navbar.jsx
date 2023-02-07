@@ -46,7 +46,7 @@ const Navbar = () => {
           <div className='item'>
               <Link className='link' to='/'>Stores</Link>
           </div>
-          <div className="icons">
+          <div className="nav-icons">
             <SearchIcon />
             <PersonOutlineIcon />
             <FavoriteBorderIcon />

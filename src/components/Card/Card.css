@@ -29,6 +29,24 @@
   position: absolute;
 }
 
+.card .image span {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 2px 3px;
+  font-size: 0.75rem;
+  font-weight: 500px;
+  color: teal;
+  background-color: azure;
+  opacity: 0.8;
+  z-index: 3;
+}
+
+.card h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .prices {
   display: flex;
   gap: 1rem;
@@ -40,7 +58,11 @@
   color: inherit;
 }
 
+.prices {
+  font-weight: 700;
+}
+
 .oldPrice {
   text-decoration: line-through;
-  color: red;
+  color: #777;
 }
