@@ -50,7 +50,6 @@
 .prices {
   display: flex;
   gap: 1rem;
-  margin-top: auto;
 }
 
 .link {

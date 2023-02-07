@@ -1,17 +1,44 @@
 .products {
-  margin: 0;
+  padding: 30px 50px;
   display: flex;
-}
-
-.inputItem {
-  display: flex;
-  flex-direction: column;
 }
 
 .products .left {
   flex: 1;
+  position: sticky;
+  height: 100%;
+  top: 50px;
+}
+
+.products .left .filterItem {
+  margin-bottom: 30px;
+}
+
+.products .left .filterItem h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.products .left .filterItem .inputItem {
+  margin-bottom: 10px;
+}
+
+.products .left .filterItem .inputItem label {
+  margin-left: 10px;
 }
 
 .products .right {
-  flex: 4;
+  flex: 3;
+}
+
+.catImg {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.inputItem-cus {
+  display: flex;
+  gap: 10px;
 }
