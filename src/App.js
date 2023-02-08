@@ -8,11 +8,13 @@ import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
 import Product from './pages/Product/Product'
 import Products from './pages/Products/Products'
+import ScrollToTop from './helpers/ScrollToTop'
 import './App.css'
 
 const Layout = () => {
   return (
     <div className='app'>
+      <ScrollToTop />
       <Navbar />
       <Outlet />
       <Footer />
